@@ -1,7 +1,7 @@
 body {
   min-height: 100vh;
   margin: 0;
-  color: gold;
+  color: #f8cc6f;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background: url(./bg.jpg) center/cover;
@@ -11,18 +11,20 @@ li {
 }
 nav {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
   position: fixed;
   width: 100%;
-  background: rgb(26, 26, 26);
+  background: rgba(26, 26, 26, 0.88);
   height: 60px;
   top: 0px;
   opacity: 1;
-  transition: 0.3s ease-in-out 150ms;
+  transition: 0.3s ease;
 }
 h2,
 ul {
   margin: 0;
+
+  font-size: 1rem;
   padding: 10px 25px;
   display: flex;
   justify-content: space-between;
